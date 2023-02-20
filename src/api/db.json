@@ -1,0 +1,678 @@
+{
+  "continents": [
+    {
+      "continent": "América",
+      "continentImg": "https://images.unsplash.com/photo-1516926133025-705ee504386d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "countries": [
+        {
+          "country": "Argentina",
+          "code": "ARG",
+          "cities": [
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1612294037637-ec328d0e075e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+              "city": "Buenos Aires"
+            }
+          ]
+        },
+        {
+          "country": "Brasil",
+          "code": "BRA",
+          "cities": [
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+              "city": "Rio de Janeiro"
+            }
+          ]
+        },
+        {
+          "country": "Canada",
+          "code": "CAN",
+          "cities": [
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1517935706615-2717063c2225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+              "city": "Toronto"
+            },
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1559511260-66a654ae982a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=918&q=80",
+              "city": "Vancouver"
+            }
+          ]
+        },
+        {
+          "country": "Estados Unidos",
+          "code": "USA",
+          "cities": [
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+              "city": "Nova York"
+            },
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80",
+              "city": "Miami"
+            },
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80",
+              "city": "Los Angeles"
+            },
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+              "city": "Las Vegas"
+            },
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1575089776834-8be34696ffb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+              "city": "Orlando"
+            },
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+              "city": "San Francisco"
+            },
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1547537352-ae90c682877e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+              "city": "Honolulu"
+            }
+          ]
+        },
+        {
+          "country": "Mexico",
+          "code": "MEX",
+          "cities": [
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1570737543098-0983d88f796d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
+              "city": "Cancun"
+            }
+          ]
+        },
+        {
+          "country": "Peru",
+          "code": "PER",
+          "cities": [
+            {
+              "imgUrl": "https://images.unsplash.com/photo-1580530719837-952e0515b69a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+              "city": "Lima"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "continent": "Europa",
+      "continentImg": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "countries": [
+        {
+          "country": "Áustria",
+          "code": "AUT",
+          "cities": [
+            {
+              "city": "Viena",
+              "imgUrl": "https://images.unsplash.com/photo-1573599852326-2d4da0bbe613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=790&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Bélgica",
+          "code": "BEL",
+          "cities": [
+            {
+              "city": "Bruxelas",
+              "imgUrl": "https://images.unsplash.com/photo-1626013969117-8c13864fdb2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Tchéquia",
+          "code": "CZE",
+          "cities": [
+            {
+              "city": "Praga",
+              "imgUrl": "https://images.unsplash.com/photo-1600623471616-8c1966c91ff6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Dinamarca",
+          "code": "DNK",
+          "cities": [
+            {
+              "city": "Copenhage",
+              "imgUrl": "https://images.unsplash.com/photo-1551651767-d5ffbdd04b83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=816&q=80"
+            }
+          ]
+        },
+        {
+          "country": "França",
+          "code": "FRA",
+          "cities": [
+            {
+              "city": "Paris",
+              "imgUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+            },
+            {
+              "city": "Nice",
+              "imgUrl": "https://images.unsplash.com/photo-1491166617655-0723a0999cfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Alemanha",
+          "code": "DEU",
+          "cities": [
+            {
+              "city": "Berlim",
+              "imgUrl": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Munique",
+              "imgUrl": "https://images.unsplash.com/photo-1577653993857-3718d1f1f997?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Frankfurt am Main",
+              "imgUrl": "https://images.unsplash.com/photo-1617934276076-ec9239067428?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Grécia",
+          "code": "GRC",
+          "cities": [
+            {
+              "city": "Atenas",
+              "imgUrl": "https://images.unsplash.com/photo-1555993539-1732b0258235?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Iráklio",
+              "imgUrl": "https://images.unsplash.com/photo-1601224065850-24bfad5400bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+            },
+            {
+              "city": "Rhodes",
+              "imgUrl": "https://images.unsplash.com/photo-1547977466-395ea3261372?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Hungria",
+          "code": "HUN",
+          "cities": [
+            {
+              "city": "Budapest",
+              "imgUrl": "https://images.unsplash.com/photo-1565426873118-a17ed65d74b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Irlanda",
+          "code": "IRL",
+          "cities": [
+            {
+              "city": "Dublin",
+              "imgUrl": "https://images.unsplash.com/photo-1549918864-48ac978761a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Itália",
+          "code": "ITA",
+          "cities": [
+            {
+              "city": "Roma",
+              "imgUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=796&q=80"
+            },
+            {
+              "city": "Milão",
+              "imgUrl": "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80"
+            },
+            {
+              "city": "Veneza",
+              "imgUrl": "https://images.unsplash.com/photo-1558271736-cd043ef2e855?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+            },
+            {
+              "city": "Florença",
+              "imgUrl": "https://images.unsplash.com/photo-1541370976299-4d24ebbc9077?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Países Baixos",
+          "code": "NLD",
+          "cities": [
+            {
+              "city": "Amsterdã",
+              "imgUrl": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Polônia",
+          "code": "POL",
+          "cities": [
+            {
+              "city": "Cracóvia",
+              "imgUrl": "https://images.unsplash.com/photo-1495181941197-70a606546974?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Varsóvia",
+              "imgUrl": "https://images.unsplash.com/photo-1519197924294-4ba991a11128?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Portugal",
+          "code": "PRT",
+          "cities": [
+            {
+              "city": "Lisboa",
+              "imgUrl": "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Porto",
+              "imgUrl": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Espanha",
+          "code": "ESP",
+          "cities": [
+            {
+              "city": "Barcelona",
+              "imgUrl": "https://images.unsplash.com/photo-1589708532758-ddd0753b0f2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Madrid",
+              "imgUrl": "https://images.unsplash.com/photo-1543785734-4b6e564642f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Suécia",
+          "code": "SWE",
+          "cities": [
+            {
+              "city": "Estocolmo",
+              "imgUrl": "https://images.unsplash.com/photo-1588653818221-2651ec1a6423?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Reino Unido",
+          "code": "GBR",
+          "cities": [
+            {
+              "city": "Londres",
+              "imgUrl": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "continent": "Ásia",
+      "continentImg": "https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1053&q=80",
+      "countries": [
+        {
+          "country": "China",
+          "code": "CHN",
+          "cities": [
+            {
+              "city": "Shenzhen",
+              "imgUrl": "https://images.unsplash.com/photo-1522614288668-a697127e9b21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Cantão",
+              "imgUrl": "https://images.unsplash.com/photo-1553826059-7a090c4a3447?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            },
+            {
+              "city": "Xangai",
+              "imgUrl": "https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Pequim",
+              "imgUrl": "https://images.unsplash.com/photo-1584872589930-e99fe5bf4408?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=877&q=80"
+            },
+            {
+              "city": "Zhuhai",
+              "imgUrl": "https://images.unsplash.com/photo-1568947577887-1bcb41962122?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Guilin",
+              "imgUrl": "https://images.unsplash.com/photo-1625820006199-2d9dacffa53a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            },
+            {
+              "city": "Hong Kong",
+              "imgUrl": "https://images.unsplash.com/photo-1594973782943-3314fe063f68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            },
+            {
+              "city": "Macau",
+              "imgUrl": "https://images.unsplash.com/photo-1634552952414-a4c7844aa458?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Coreia do Sul",
+          "code": "KOR",
+          "cities": [
+            {
+              "city": "Seul",
+              "imgUrl": "https://images.unsplash.com/photo-1617541086271-4d43983704bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+            },
+            {
+              "city": "Jeju",
+              "imgUrl": "https://images.unsplash.com/photo-1609766418204-94aae0ecfdfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Índia",
+          "code": "IND",
+          "cities": [
+            {
+              "city": "Deli",
+              "imgUrl": "https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Bombaim",
+              "imgUrl": "https://images.unsplash.com/photo-1562979314-bee7453e911c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            },
+            {
+              "city": "Agra",
+              "imgUrl": "https://images.unsplash.com/photo-1508196476590-9511757a5cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            },
+            {
+              "city": "Chennai",
+              "imgUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Jaipur",
+              "imgUrl": "https://images.unsplash.com/photo-1661924326425-c14a6426d989?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Calcutá",
+              "imgUrl": "https://images.unsplash.com/photo-1596177802441-e71d2d061d30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80"
+            },
+            {
+              "city": "Bangalore",
+              "imgUrl": "https://images.unsplash.com/photo-1644779504736-ed346f96a7bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=941&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Indonesia",
+          "code": "IDN",
+          "cities": [
+            {
+              "city": "Denpasar",
+              "imgUrl": "https://images.unsplash.com/photo-1592364395653-83e648b20cc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Jacarta",
+              "imgUrl": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Batam",
+              "imgUrl": "https://images.unsplash.com/photo-1629643570024-e6062c016143?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Israel",
+          "code": "ISR",
+          "cities": [
+            {
+              "city": "Jerusalém",
+              "imgUrl": "https://images.unsplash.com/photo-1464980195772-d5d6e9435fac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Telavive",
+              "imgUrl": "https://images.unsplash.com/photo-1500990702037-7620ccb6a60a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Japão",
+          "code": "JPN",
+          "cities": [
+            {
+              "city": "Tóquio",
+              "imgUrl": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
+            },
+            {
+              "city": "Osaka",
+              "imgUrl": "https://images.unsplash.com/photo-1565559203353-49efc30af68d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Kyoto",
+              "imgUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Chiba",
+              "imgUrl": "https://images.unsplash.com/photo-1648954542991-003a4e64987e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+            },
+            {
+              "city": "Fukuoka",
+              "imgUrl": "https://images.unsplash.com/photo-1569869946371-48e63d7883db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Malásia",
+          "code": "MYS",
+          "cities": [
+            {
+              "city": "Kuala Lumpur",
+              "imgUrl": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=864&q=80"
+            },
+            {
+              "city": "Johor Bahru",
+              "imgUrl": "https://images.unsplash.com/photo-1595434818649-81ee78242024?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
+            },
+            {
+              "city": "Ilha de Penang",
+              "imgUrl": "https://images.unsplash.com/photo-1594299535739-d20ff4ea437e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Filipinas",
+          "code": "PHL",
+          "cities": [
+            {
+              "city": "Cebu",
+              "imgUrl": "https://images.unsplash.com/photo-1504289784232-667c4d9b766b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Russia",
+          "code": "RUS",
+          "cities": [
+            {
+              "city": "Moscow",
+              "imgUrl": "https://images.unsplash.com/photo-1547448415-e9f5b28e570d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "São Petersburgo",
+              "imgUrl": "https://images.unsplash.com/photo-1548834925-e48f8a27ae6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Arábia Saudita",
+          "code": "SAU",
+          "cities": [
+            {
+              "city": "Meca",
+              "imgUrl": "https://images.unsplash.com/photo-1590108589108-3600131de843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1224&q=80"
+            },
+            {
+              "city": "Medina",
+              "imgUrl": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Riad",
+              "imgUrl": "https://images.unsplash.com/photo-1506795213373-430e921fe2ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Dammam",
+              "imgUrl": "https://images.unsplash.com/photo-1656498933234-fcfbd7f46eca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1028&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Singapura",
+          "code": "SGP",
+          "cities": [
+            {
+              "city": "Singapura",
+              "imgUrl": "https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Taiwan",
+          "code": "TWN",
+          "cities": [
+            {
+              "city": "Taipé",
+              "imgUrl": "https://images.unsplash.com/photo-1556115908-233c785befbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Tailândia",
+          "code": "THA",
+          "cities": [
+            {
+              "city": "Bangkok",
+              "imgUrl": "https://images.unsplash.com/photo-1586851624198-0c17c910b04f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Phuket",
+              "imgUrl": "https://images.unsplash.com/photo-1586820672103-2272d8490ade?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=747&q=80"
+            },
+            {
+              "city": "Pattaya",
+              "imgUrl": "https://images.unsplash.com/photo-1620374710130-51526b5200f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Chiang Mai",
+              "imgUrl": "https://images.unsplash.com/photo-1578157695179-d7b7ddeb2f53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+            },
+            {
+              "city": "Krabi",
+              "imgUrl": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=839&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Turquia",
+          "code": "TUR",
+          "cities": [
+            {
+              "city": "Istambul",
+              "imgUrl": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=834&q=80"
+            },
+            {
+              "city": "Antália",
+              "imgUrl": "https://images.unsplash.com/photo-1582030826675-8b596001240a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            },
+            {
+              "city": "Muğla",
+              "imgUrl": "https://images.unsplash.com/photo-1657816999487-514d5ee3c9b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Emirados Árabes Unidos",
+          "code": "ARE",
+          "cities": [
+            {
+              "city": "Dubai",
+              "imgUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Abu Dhabi",
+              "imgUrl": "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Vietnã",
+          "code": "VNM",
+          "cities": [
+            {
+              "city": "Cidade de Ho Chi Minh",
+              "imgUrl": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Baía de Ha Long",
+              "imgUrl": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Hanói",
+              "imgUrl": "https://images.unsplash.com/photo-1601108644994-1e450e786d3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80"
+            },
+            {
+              "city": "Da Nang",
+              "imgUrl": "https://images.unsplash.com/photo-1560964645-5296b5099677?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "continent": "África",
+      "continentImg": "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "countries": [
+        {
+          "country": "Egito",
+          "code": "EGY",
+          "cities": [
+            {
+              "city": "Cairo",
+              "imgUrl": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+              "city": "Hurghada",
+              "imgUrl": "https://images.unsplash.com/photo-1562679300-722c0b24717d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+            }
+          ]
+        },
+        {
+          "country": "Marrocos",
+          "code": "MAR",
+          "cities": [
+            {
+              "city": "Marrakech",
+              "imgUrl": "https://images.unsplash.com/photo-1597212618440-806262de4f6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+            }
+          ]
+        },
+        {
+          "country": "África do Sul",
+          "code": "ZAF",
+          "cities": [
+            {
+              "city": "Johanesburgo",
+              "imgUrl": "https://images.unsplash.com/photo-1636706519609-988babca3dd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "continent": "Oceania",
+      "continentImg": "https://images.unsplash.com/photo-1534027019354-7c717bedd3c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "countries": [
+        {
+          "country": "Nova Zelândia",
+          "code": "NZL",
+          "cities": [
+            {
+              "city": "Auckland",
+              "imgUrl": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
