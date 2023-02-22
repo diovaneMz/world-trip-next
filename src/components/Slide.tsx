@@ -16,7 +16,7 @@ export function Slide() {
         <SwiperSlide>
           <SlideItem
             continentName="América"
-            continentText="Conhecida por suas grandes cidades e atrações turísticas."
+            continentText="Conhecida por suas cidades e atrações turísticas."
             href="america"
             imageUrl="/assets/north-america.jpg"
           />

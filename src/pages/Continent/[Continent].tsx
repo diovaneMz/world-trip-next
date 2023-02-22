@@ -3,29 +3,43 @@ import { ContinentInfos } from "@/components/ContinentInfos";
 import { CityCard } from "@/components/CityCard";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { api } from "@/api/api";
+import { stringify } from "querystring";
 
 interface ContinentDataProps {
-  continents: {
-    continent: string;
-    continentImg: string;
-    countries: {
-      country: string;
-      code: string;
-      cities: {
-        imgUrl: string;
-        city: string;
-      }[];
+  continent: string;
+  continentImg: string;
+  description: string;
+  info: {
+    countryCount: string;
+    languageCount: string;
+  };
+  countries: {
+    country: string;
+    code: string;
+    cities: {
+      imgUrl: string;
+      city: string;
     }[];
   }[];
 }
 
-function Continent({ apiResponse }: { apiResponse: any }) {
-  console.log(apiResponse)
-  
+function Continent({ data }: { data: ContinentDataProps }) {
+  function getTop100Cities() {
+    let initialValue = 0;
+
+    const count = data.countries.reduce((accumulator, country) => {
+      const cityCount = country.cities.length;
+
+      return accumulator + cityCount;
+    }, initialValue);
+
+    return JSON.stringify(count);
+  }
+
   return (
     <Flex flexDir="column">
       <Flex
-        backgroundImage={`url(${"https://images.unsplash.com/photo-1516926133025-705ee504386d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"})`}
+        backgroundImage={`url(${data.continentImg})`}
         backgroundPosition="center"
         backgroundSize={{ base: "150%", md: "120%", lg: "100%" }}
         width="100%"
@@ -45,7 +59,7 @@ function Continent({ apiResponse }: { apiResponse: any }) {
             marginInline={{ lg: "auto" }}
             width={{ lg: "100%" }}
           >
-            Amewrica
+            {data.continent}
           </Heading>
         </Flex>
       </Flex>
@@ -68,13 +82,12 @@ function Continent({ apiResponse }: { apiResponse: any }) {
             lineHeight={{ base: "1.5rem", lg: "2.5714rem" }}
             textAlign="justify"
           >
-            A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a
-            península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste
-            pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso,
-            e o mar Negro a sudeste.
+            {data.description}
           </Text>
         </Box>
-        <ContinentInfos dataInfo={[50, 60, 27]} />
+        <ContinentInfos
+          dataInfo={[data.info.countryCount, data.info.languageCount, getTop100Cities()]}
+        />
       </Flex>
 
       <Box
@@ -98,11 +111,19 @@ function Continent({ apiResponse }: { apiResponse: any }) {
           padding="0 44px"
           marginBottom="20rem"
         >
-          <CityCard />
-          <CityCard />
-          <CityCard />
-          <CityCard />
-          <CityCard />
+          {data.countries.map((country) => {
+            return country.cities.map((city) => {
+              return (
+                <CityCard
+                  key={city.city}
+                  city={city.city}
+                  code={country.code}
+                  country={country.country}
+                  imgUrl={city.imgUrl}
+                />
+              );
+            });
+          })}
         </Grid>
       </Box>
     </Flex>
@@ -152,12 +173,19 @@ export const getStaticProps: GetStaticProps = async (context) => {
       .replace(/[^\w\s]/gi, "")
       .toLowerCase();
   }
-  
-  const apiResponse = await api.get("continents").then((resp) => resp.data.filter(item => accentRemover(item.continent) === context.params?.Continent));
+
+  const apiResponse = await api
+    .get("continents")
+    .then((resp) =>
+      resp.data.filter(
+        (item: ContinentDataProps) =>
+          accentRemover(item.continent) === context.params?.Continent
+      )
+    );
 
   return {
     props: {
-      apiResponse,
+      data: apiResponse[0],
     },
   };
 };

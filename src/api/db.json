@@ -2,7 +2,12 @@
   "continents": [
     {
       "continent": "América",
-      "continentImg": "https://images.unsplash.com/photo-1516926133025-705ee504386d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "continentImg": "https://images.unsplash.com/photo-1505887579242-c7bc04062e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "description": "Por convenção, a América é um dos cinco continentes do mundo. Compreendendo a porção ocidental do hemisfério ocidental, a América geralmente é dividida em América do Norte, América Central e América do Sul. A América do Norte é separada da Ásia a leste pelo Oceano Pacífico e do Oceano Ártico a norte. A América Central é um istmo que liga a América do Norte e do Sul, e a América do Sul é delimitada pelo Oceano Atlântico a leste e o Oceano Pacífico a oeste.",
+      "info": {
+        "countryCount": "35",
+        "languageCount": "1000"
+      },
       "countries": [
         {
           "country": "Argentina",
@@ -97,6 +102,11 @@
     {
       "continent": "Europa",
       "continentImg": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "info": {
+        "countryCount": "44",
+        "languageCount": "200"
+      },
       "countries": [
         {
           "country": "Áustria",
@@ -306,7 +316,12 @@
     },
     {
       "continent": "Ásia",
-      "continentImg": "https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1053&q=80",
+      "continentImg": "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1492&q=80",
+      "description": "Por convenção, a Ásia é o maior continente do mundo, estendendo-se do Oceano Ártico ao norte até o Oceano Índico ao sul e do Mar Mediterrâneo a oeste até o Oceano Pacífico a leste. A Ásia é geralmente dividida em seis regiões geográficas: Ásia Central, Oriente Médio, Sul da Ásia, Sudeste Asiático, Extremo Oriente e Ásia Setentrional. A Ásia é limitada pela Europa a oeste e separada da América a leste pelo Oceano Pacífico.",
+      "info": {
+        "countryCount": "48",
+        "languageCount": "2300"
+      },
       "countries": [
         {
           "country": "China",
@@ -620,7 +635,12 @@
     },
     {
       "continent": "África",
-      "continentImg": "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "continentImg": "https://images.unsplash.com/photo-1527073620320-77635188c627?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "description": "Por convenção, a África é o terceiro maior continente do mundo, localizado principalmente no hemisfério sul e cercado pelos oceanos Atlântico a oeste e Índico a leste. A África é geralmente dividida em cinco regiões geográficas: África do Norte, África Ocidental, África Central, África Oriental e África Austral. A África é separada da Europa pelo Mar Mediterrâneo ao norte e ligada à Ásia na sua extremidade nordeste.",
+      "info": {
+        "countryCount": "54",
+        "languageCount": "2000"
+      },
       "countries": [
         {
           "country": "Egito",
@@ -661,6 +681,11 @@
     {
       "continent": "Oceania",
       "continentImg": "https://images.unsplash.com/photo-1534027019354-7c717bedd3c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "description": "Por convenção, a Oceania é o menor continente do mundo, composto por milhares de ilhas espalhadas pelo Oceano Pacífico. A Oceania é geralmente dividida em quatro regiões geográficas: Australásia, Melanésia, Micronésia e Polinésia. A Oceania é limitada pela Ásia a oeste e pelas Américas a leste, e seus limites meridionais são definidos pelo Oceano Antártico ao sul.",
+      "info": {
+        "countryCount": "14",
+        "languageCount": "1200"
+      },
       "countries": [
         {
           "country": "Nova Zelândia",

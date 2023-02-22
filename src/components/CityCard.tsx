@@ -10,14 +10,25 @@ import {
 } from "@chakra-ui/react";
 import Flag from "react-world-flags";
 
-export function CityCard() {
+interface CityCardProps {
+  city: string;
+  code: string;
+  country: string;
+  imgUrl: string;
+}
+
+export function CityCard({ city, code, country, imgUrl }: CityCardProps) {
   return (
     <GridItem>
       <Card padding="0">
         <CardBody padding="0">
           <Image
-            src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            src={imgUrl}
             borderTopRadius="4px"
+            width="20.2143rem"
+            height="12.3571rem"
+            objectFit='cover'
+            
           />
           <HStack
             borderBottomRadius="4px"
@@ -36,7 +47,7 @@ export function CityCard() {
                 fontSize="1.4286rem"
                 lineHeight="1.7857rem"
               >
-                Londres
+                {city}
               </Heading>
               <Text
                 textColor="my.darkInfo"
@@ -45,11 +56,11 @@ export function CityCard() {
                 fontSize="1.1429rem"
                 lineHeight="1.8571rem"
               >
-                Reino Unido
+                {country}
               </Text>
             </VStack>
             <Flag
-              code="BRA"
+              code={code}
               style={{
                 width: "2.1429rem",
                 height: "2.1429rem",

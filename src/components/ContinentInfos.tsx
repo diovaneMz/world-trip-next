@@ -11,7 +11,7 @@ import {
 import { Info } from "phosphor-react";
 
 interface ContinentInfoProps {
-  dataInfo: number[];
+  dataInfo: string[];
 }
 
 export function ContinentInfos({ dataInfo }: ContinentInfoProps) {
